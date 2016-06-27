@@ -11,14 +11,14 @@ The Sitecore-PowerShell-Installer script enables you to enable/disable file acco
 Examples:
 Enable/Disable config on a server
 - .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery
-- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManager
+- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement
 - .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting
 - .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing
 - .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing
 
 Check Enabled/Disabled config on a server
 - .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery check
-- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManager check
+- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement check
 - .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting check
 - .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing check
 - .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing check
