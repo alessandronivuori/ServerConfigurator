@@ -1,4 +1,4 @@
-Server Configurator
+Sitecore Server Configurator
 =============================
 The Sitecore-PowerShell-Installer script enables you to enable/disable file according the documentation 
 
