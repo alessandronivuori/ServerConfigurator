@@ -6,6 +6,8 @@ The Sitecore-PowerShell-Installer script enables you to enable/disable file acco
 ### How To Use
 1. Download [script]
 2. Run Powershell as Administrator and invoke ```. .\install.ps1```
+
+
 Examples:
 Enable/Disable config on a server
 - .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery
