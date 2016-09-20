@@ -28,3 +28,6 @@ Check Enabled/Disabled config on a server
 - If you receive a security warning after invoking ```. .\install.ps1``` and want to make it go away permanently, then right-click on the install.ps1 file and "Unblock" it.
 
 This script was inspired by Sitecore-PowerShell-Installer's script: https://github.com/patrickperrone/Sitecore-PowerShell-Installer
+
+### XmlSchema.xml 
+- for generating the xml files for future sitecore releases use this file

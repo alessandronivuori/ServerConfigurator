@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Root">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Config" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Config">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="FilePath" type="xs:string"/>
+                <xs:element name="ConfigFileName" type="xs:dateTime"/>
+                <xs:element name="ConfigType" type="xs:string"/>
+                <xs:element name="ContentDelivery" type="xs:string"/>
+				<xs:element name="ContentManagement" type="xs:string"/>
+				<xs:element name="Processing" type="xs:string"/>												                
+				<xs:element name="CMProcessing" type="xs:string"/>
+                <xs:element name="Reporting" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
