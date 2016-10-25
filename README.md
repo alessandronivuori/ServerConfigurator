@@ -10,18 +10,18 @@ The Sitecore-PowerShell-Installer script enables you to enable/disable file acco
 
 Examples:
 Enable/Disable config on a server
-- .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery
-- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement
-- .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting
-- .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing
-- .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing
+- .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery -solr 0 -check 0
+- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement -solr 0 -check 0
+- .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting -solr 0 -check 0
+- .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing -solr 0 -check 0
+- .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing -solr 0 -check 0
 
 Check Enabled/Disabled config on a server
-- .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery check
-- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement check
-- .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting check
-- .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing check
-- .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing check
+- .\install.ps1 C:\inetpub\wwwroot\CD81 ContentDelivery -solr 0 -check 1
+- .\install.ps1 C:\inetpub\wwwroot\Cm81 ContentManagement -solr 0 -check 1
+- .\install.ps1 C:\inetpub\wwwroot\Rp81 Reporting -solr 0 -check 1
+- .\install.ps1 C:\inetpub\wwwroot\CP81 CMProcessing -solr 0 -check 1
+- .\install.ps1 C:\inetpub\wwwroot\Pr81 Processing -solr 0 -check 1
 
 ### Troubleshooting
 - If you see an error in PowerShell complaining that "the execution of scripts is disabled on this system." then you need to invoke ```Set-ExecutionPolicy -ExecutionPolicy unrestricted -Force```

@@ -2,7 +2,8 @@
 param(
   [string]$path,
   [string]$serverType,
-  [string]$check 
+  [bool]$solr,
+  [bool]$check
 )
 [string]$configPath
 $scriptDir = Split-Path (Resolve-Path $myInvocation.MyCommand.Path)
@@ -43,7 +44,7 @@ function Disable-File([string]$file)
 		if ($extension.equals(".config"))
 		{
 				
-			if ([string]::IsNullOrEmpty($check))
+			if (![bool]($check))
 			{
 				Write-Host "Disabling Config File:"$filename
 				Rename-Item $filename ($filename+".disabled")
@@ -59,7 +60,10 @@ function Disable-File([string]$file)
 			Write-Host "ALREADY DISABLED:"$filename	-ForegroundColor "Green"
 		}
 	}
-	
+	else
+	{
+		Write-Host "File NOT FOUND:"$file
+	}
 		
 }
 
@@ -78,7 +82,7 @@ function Enable-File([string]$file)
 		if ($extension.equals(".disabled"))
 		{
 
-			if ([string]::IsNullOrEmpty($check))
+			if (![bool]($check))
 			{
 				Write-Host "Enabling Disabled File:"$file	
 				$enabledFile = $file -replace ".disabled$", "" 
@@ -92,7 +96,7 @@ function Enable-File([string]$file)
 		if ($extension.equals(".example"))
 		{
 
-			if ([string]::IsNullOrEmpty($check))
+			if (![bool]($check))
 			{		
 				Write-Host "Enabling Example File:"$file	
 				$enabledFile = $file -replace ".example$", ""			
@@ -104,7 +108,10 @@ function Enable-File([string]$file)
 			}
 		}
 	}
-	
+	else
+	{
+		Write-Host "Config File:"$file" should be enabled but is NOT FOUND" -ForegroundColor "Red" 
+	}
 	
 }
 function Find-File([string]$file)
@@ -124,7 +131,12 @@ function Find-File([string]$file)
 		{
 			return $enabledFile
 		}
-		Write-Host "File NOT FOUND:"$file
+		$exampleFile = $file -replace ".example$", "" 
+		if (Test-Path $exampleFile)
+		{
+			return $exampleFile
+		}
+
 		return ""
 		
 
@@ -144,6 +156,20 @@ function Set-Config-File([string]$file)
 		Disable-File $file
 	}	
 }
+
+function Set-Config-File-Using-SearchProvider([string]$file, [string]$searchProviderUsed)
+{
+	if (!$config.SearchProviderUsed.equals($searchProviderUsed))
+	{
+		Set-Config-File $file
+	}
+	if ($config.SearchProviderUsed.equals($searchProviderUsed))
+	{
+		Disable-File $file
+	}
+}
+
+
 function Configure-Server([string]$path, $serverType)
 {
     [xml]$configXml = Read-InstallConfigFile $configPath
@@ -154,9 +180,15 @@ function Configure-Server([string]$path, $serverType)
 		$serverConfig = ($config | Select -ExpandProperty $serverType)
 		if ([bool]($config.SearchProviderUsed))
 		{
-			if (!$config.SearchProviderUsed.equals("Solr is used"))
+		
+			if (![bool]($solr))
 			{
-				Set-Config-File $file
+				Set-Config-File-Using-SearchProvider $file "Solr is used"
+				
+			}
+			if ([bool]($solr))
+			{
+				Set-Config-File-Using-SearchProvider $file "Lucene is used"
 			}
 		}
 		else
@@ -168,4 +200,4 @@ function Configure-Server([string]$path, $serverType)
 
 
 
-Configure-Server $path $serverType $check 
+Configure-Server $path $serverType [bool]$solr [bool]$check 
