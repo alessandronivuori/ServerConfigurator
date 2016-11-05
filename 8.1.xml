@@ -1690,7 +1690,7 @@
 			<ConfigFileName>Sitecore.FXM.Solr.DomainsSearch.DefaultIndexConfiguration.config.disabled</ConfigFileName>
 			<ConfigType>disabled</ConfigType>
 			<SearchProviderUsed>Solr is used</SearchProviderUsed>
-			<ContentDelivery>Disable</ContentDelivery>
+			<ContentDelivery>Enable</ContentDelivery>
 			<ContentManagement>Enable</ContentManagement>
 			<Processing>Disable</Processing>
 			<CMProcessing>Enable</CMProcessing>
