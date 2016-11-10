@@ -40,8 +40,9 @@ You can see more information on the script's help
 
 This script was inspired by Sitecore-PowerShell-Installer's script: https://github.com/patrickperrone/Sitecore-PowerShell-Installer
 
-### XmlSchema.xml 
-- For generating the xml files for future sitecore releases use this file. Use it in Excel via Developer tab (enable it first) -> XML -> Export. 
+## Generate a new configuration file from Sitecore excel file
+- Use the XmlSchema.xml file in Excel to generate the xml configuration file used by the script. 
+- This is done using Excel, via Developer tab (enable it first if needed) -> XML -> Export. 
 - You need to map the columns with the xml mappings first. Use Source on that same XML area, XML-Mappings-> Add and add the schema file. 
 - Then for each mapping you do right click, 'Map Element' and select a cell in the column to be used. Do that for all, then you can export. 
 - More information here: https://support.office.com/en-us/article/Export-XML-data-from-Excel-2016-c3cd6ade-7845-4b75-ba2e-fb9daad0567d
