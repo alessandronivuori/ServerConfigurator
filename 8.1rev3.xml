@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Root>
 	<Config>
 		<FilePath>\website\</FilePath>
 		<ConfigFileName>Web.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -14,6 +15,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>Commands.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -24,6 +26,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>ConnectionStrings.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -34,6 +37,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>ConnectionStringsOracle.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -44,6 +48,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>FieldTypes.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -54,6 +59,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>Icons.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -64,6 +70,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>LanguageDefinitions.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -74,6 +81,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>MimeTypes.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -84,6 +92,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>Portraits.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -94,6 +103,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>Prototypes.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -104,6 +114,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>Sitecore.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -114,6 +125,7 @@
 		<FilePath>\website\App_Config\</FilePath>
 		<ConfigFileName>XamlSharp.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -124,6 +136,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>001.Sitecore.Speak.Important.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -134,6 +147,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>DataFolder.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -144,6 +158,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>EventHandler.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -154,6 +169,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>ForwardingSecurityEvents.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -164,6 +180,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>ja-JP.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -174,6 +191,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>LiveMode.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -184,6 +202,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>ScalabilitySettings.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -194,6 +213,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Automation.TimeoutProcessing.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -204,6 +224,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Compatibility.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -214,6 +235,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -224,6 +246,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.ExcludeRobots.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -234,6 +257,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.MarketingTaxonomy.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -244,6 +268,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.MarketingTaxonomyCD.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -254,6 +279,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Model.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -264,6 +290,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.MongoDb.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -274,6 +301,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Oracle.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -284,6 +312,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Outcome.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -294,6 +323,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Processing.Aggregation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -304,6 +334,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Processing.Aggregation.ProcessingPools.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -314,6 +345,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Processing.Aggregation.Services.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -324,16 +356,18 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Processing.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
 		<CMProcessing>Enable</CMProcessing>
-		<Reporting>Disable</Reporting>
+		<Reporting>Enable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Processing.Services.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -344,6 +378,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Reporting.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -354,6 +389,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.Aggregation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -364,6 +400,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -374,6 +411,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.Database.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -384,16 +422,18 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.Database.ScaledCM.config.disabled</ConfigFileName>
 		<ConfigType>config</ConfigType>
-		<ContentDelivery>Enable</ContentDelivery>
+		<SearchProviderUsed/>
+		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
-		<CMProcessing>Enable</CMProcessing>
+		<CMProcessing>Disable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.Outcome.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -404,6 +444,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Tracking.RobotDetection.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -414,6 +455,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.AntiCsrf.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -424,6 +466,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Apps.TagInjection.config </ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -434,6 +477,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Buckets.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -444,6 +488,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Buckets.WarmupQueries.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -454,6 +499,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Commerce.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -464,6 +510,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Commerce.ExperienceProfile.ReportingServer.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -485,6 +532,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ContentSearch.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -495,6 +543,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ContentSearch.DefaultConfigurations.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -618,7 +667,7 @@
 		<SearchProviderUsed>Solr is used</SearchProviderUsed>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
-		<Processing>Disable</Processing>
+		<Processing>Enable</Processing>
 		<CMProcessing>Enable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
@@ -629,7 +678,7 @@
 		<SearchProviderUsed>Solr is used</SearchProviderUsed>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
-		<Processing>Disable</Processing>
+		<Processing>Enable</Processing>
 		<CMProcessing>Enable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
@@ -648,6 +697,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ContentSearch.VerboseLogging.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -658,6 +708,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.DefaultLanguage.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -668,6 +719,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Diagnostics.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -678,6 +730,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ExperienceEditor.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -688,6 +741,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ExperienceEditor.Speak.Requests.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -698,6 +752,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ExperienceExplorer.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -708,6 +763,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ExperienceExplorer.Speak.Requests.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -718,6 +774,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.ItemWebApi.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -728,6 +785,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.JSNLog.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -738,6 +796,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.LanguageFallback.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -748,6 +807,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -758,6 +818,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Marketing.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -768,6 +829,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Definitions.MarketingAssets.Repositories.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -844,6 +906,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Definitions.MarketingAssets.RepositoriesCD.config.disabled</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -896,6 +959,17 @@
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
+		<ConfigFileName>Sitecore.Marketing.Lucene.IndexConfiguration.config</ConfigFileName>
+		<ConfigType>config</ConfigType>
+		<SearchProviderUsed>Solr is used</SearchProviderUsed>
+		<ContentDelivery>Disable</ContentDelivery>
+		<ContentManagement>Disable</ContentManagement>
+		<Processing>Disable</Processing>
+		<CMProcessing>Disable</CMProcessing>
+		<Reporting>Disable</Reporting>
+	</Config>
+	<Config>
+		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Solr.Index.Master.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
 		<SearchProviderUsed>Solr is used</SearchProviderUsed>
@@ -931,6 +1005,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MarketingCD.config.disabled</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -941,6 +1016,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MarketingProcessingRole.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -951,6 +1027,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MarketingReportingRole.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -961,6 +1038,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Media.RequestProtection.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -971,6 +1049,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Mvc.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -981,6 +1060,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MvcAnalytics.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -991,6 +1071,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MvcExperienceEditor.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1001,6 +1082,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.MvcSimulator.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1011,6 +1093,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1021,6 +1104,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1031,6 +1115,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.Processing.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1041,6 +1126,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.RemoteClient.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1051,6 +1137,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.Services.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1061,6 +1148,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.Services.RemoteServer.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1071,6 +1159,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PathAnalyzer.StorageProviders.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1081,16 +1170,18 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.PipelineProfiling.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
-		<ContentDelivery>Enable</ContentDelivery>
-		<ContentManagement>Enable</ContentManagement>
-		<Processing>Enable</Processing>
-		<CMProcessing>Enable</CMProcessing>
-		<Reporting>Enable</Reporting>
+		<SearchProviderUsed/>
+		<ContentDelivery>Disable</ContentDelivery>
+		<ContentManagement>Disable</ContentManagement>
+		<Processing>Disable</Processing>
+		<CMProcessing>Disable</CMProcessing>
+		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Processing.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1101,6 +1192,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Publishing.DedicatedInstance.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1111,6 +1203,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Publishing.EventProvider.Async.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1121,6 +1214,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Publishing.Optimizations.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1131,6 +1225,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Publishing.Parallel.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1141,6 +1236,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Publishing.Recovery.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1151,6 +1247,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.SegmentBuilder.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1161,6 +1258,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Services.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1171,6 +1269,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Shell.MarketingAutomation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1181,6 +1280,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.AntiCsrf.SheerUI.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1191,6 +1291,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.Applications.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1223,6 +1324,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.Components.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1233,6 +1335,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1243,6 +1346,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.ItemWebApi.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1253,6 +1357,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.LaunchPad.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1263,6 +1368,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Speak.Mvc.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1273,6 +1379,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.WebDAV.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1283,6 +1390,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Xdb.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1293,26 +1401,29 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Xdb.Remote.Client.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
-		<CMProcessing>Enable</CMProcessing>
+		<CMProcessing>Disable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Xdb.Remote.Client.MarketingAssets.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
-		<CMProcessing>Enable</CMProcessing>
+		<CMProcessing>Disable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Xdb.Remote.Server.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1323,6 +1434,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>Sitecore.Xdb.Remote.Server.MarketingAssets.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1333,6 +1445,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>SitecoreSettings.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1343,6 +1456,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>SiteDefinition.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1353,6 +1467,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>UseServerSideRedirect.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1363,6 +1478,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>WebDeploy.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1373,6 +1489,7 @@
 		<FilePath>\website\App_Config\Include</FilePath>
 		<ConfigFileName>XslExtension.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -1383,6 +1500,7 @@
 		<FilePath>\website\App_Config\Include\CES</FilePath>
 		<ConfigFileName>Sitecore.CES.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1393,6 +1511,7 @@
 		<FilePath>\website\App_Config\Include\CES</FilePath>
 		<ConfigFileName>Sitecore.CES.DeviceDetection.CheckInitialization.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1403,6 +1522,7 @@
 		<FilePath>\website\App_Config\Include\CES</FilePath>
 		<ConfigFileName>Sitecore.CES.DeviceDetection.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1413,6 +1533,7 @@
 		<FilePath>\website\App_Config\Include\CES</FilePath>
 		<ConfigFileName>Sitecore.CES.GeoIp.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1423,6 +1544,7 @@
 		<FilePath>\website\App_Config\Include\CES</FilePath>
 		<ConfigFileName>Sitecore.CES.GeoIp.LegacyLocation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1433,6 +1555,7 @@
 		<FilePath>\website\App_Config\Include\Channel</FilePath>
 		<ConfigFileName>Sitecore.Analytics.Channel.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1443,6 +1566,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.ApplicationDependencies.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1453,6 +1577,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.Client.RulePerformance.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1463,6 +1588,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1473,6 +1599,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.Intelligence.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1494,6 +1621,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.Mvc.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1504,6 +1632,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.PreemptiveScreenshot.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1514,6 +1643,7 @@
 		<FilePath>\website\App_Config\Include\ContentTesting</FilePath>
 		<ConfigFileName>Sitecore.ContentTesting.Processing.Aggregation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1535,6 +1665,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.Aggregation.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1545,6 +1676,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1555,6 +1687,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.ReAggregation.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1565,6 +1698,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.ReAggregation.Scheduling.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1575,6 +1709,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.Reduce.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1585,6 +1720,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.StorageProviders.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1595,6 +1731,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceAnalytics</FilePath>
 		<ConfigFileName>Sitecore.ExperienceAnalytics.WebAPI.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1605,6 +1742,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceProfile</FilePath>
 		<ConfigFileName>Sitecore.ExperienceProfile.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1615,6 +1753,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceProfile</FilePath>
 		<ConfigFileName>Sitecore.ExperienceProfile.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1625,6 +1764,7 @@
 		<FilePath>\website\App_Config\Include\ExperienceProfile</FilePath>
 		<ConfigFileName>Sitecore.ExperienceProfile.Reporting.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1635,6 +1775,7 @@
 		<FilePath>\website\App_Config\Include\FXM</FilePath>
 		<ConfigFileName>Sitecore.FXM.Bundle.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1645,6 +1786,7 @@
 		<FilePath>\website\App_Config\Include\FXM</FilePath>
 		<ConfigFileName>Sitecore.FXM.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1656,7 +1798,7 @@
 		<ConfigFileName>Sitecore.FXM.Lucene.DomainsSearch.DefaultIndexConfiguration.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
 		<SearchProviderUsed>Lucene is used</SearchProviderUsed>
-		<ContentDelivery>Disable</ContentDelivery>
+		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
 		<CMProcessing>Enable</CMProcessing>
@@ -1679,9 +1821,9 @@
 		<ConfigType>config</ConfigType>
 		<SearchProviderUsed>Lucene is used</SearchProviderUsed>
 		<ContentDelivery>Enable</ContentDelivery>
-		<ContentManagement>Disable</ContentManagement>
+		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
-		<CMProcessing>Disable</CMProcessing>
+		<CMProcessing>Enable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
@@ -1689,7 +1831,7 @@
 		<ConfigFileName>Sitecore.FXM.Solr.DomainsSearch.DefaultIndexConfiguration.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
 		<SearchProviderUsed>Solr is used</SearchProviderUsed>
-		<ContentDelivery>Disable</ContentDelivery>
+		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
 		<CMProcessing>Enable</CMProcessing>
@@ -1712,15 +1854,16 @@
 		<ConfigType>disabled</ConfigType>
 		<SearchProviderUsed>Solr is used</SearchProviderUsed>
 		<ContentDelivery>Enable</ContentDelivery>
-		<ContentManagement>Disable</ContentManagement>
+		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
-		<CMProcessing>Disable</CMProcessing>
+		<CMProcessing>Enable</CMProcessing>
 		<Reporting>Disable</Reporting>
 	</Config>
 	<Config>
 		<FilePath>\website\App_Config\Include\FXM</FilePath>
 		<ConfigFileName>Sitecore.FXM.Speak.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1731,6 +1874,7 @@
 		<FilePath>\website\App_Config\Include\</FilePath>
 		<ConfigFileName>Sitecore.LanguageFallback.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1741,6 +1885,7 @@
 		<FilePath>\website\App_Config\Include\ListManagement</FilePath>
 		<ConfigFileName>Sitecore.ListManagement.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1751,6 +1896,7 @@
 		<FilePath>\website\App_Config\Include\ListManagement</FilePath>
 		<ConfigFileName>Sitecore.ListManagement.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1783,6 +1929,7 @@
 		<FilePath>\website\App_Config\Include\ListManagement</FilePath>
 		<ConfigFileName>Sitecore.ListManagement.Services.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1815,6 +1962,7 @@
 		<FilePath>\website\App_Config\Include\Marketing</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Campaigns.Client.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1825,6 +1973,7 @@
 		<FilePath>\website\App_Config\Include\Marketing</FilePath>
 		<ConfigFileName>Sitecore.Marketing.Campaigns.Services.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -1835,6 +1984,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1845,6 +1995,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ExperienceProfile.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1855,6 +2006,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.Facebook.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1865,6 +2017,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.GooglePlus.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1875,6 +2028,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.Klout.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1885,6 +2039,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.LinkedIn.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1928,6 +2083,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ProfileMapping.Facebook.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1938,6 +2094,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ProfileMapping.GooglePlus.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1948,6 +2105,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ProfileMapping.LinkedIn.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1958,6 +2116,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ProfileMapping.Twitter.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1968,6 +2127,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.ScalabilitySettings.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -1978,6 +2138,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.SocialMarketer.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2021,6 +2182,7 @@
 		<FilePath>\website\App_Config\Include\Social</FilePath>
 		<ConfigFileName>Sitecore.Social.Twitter.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2031,6 +2193,7 @@
 		<FilePath>\website\App_Config\Include\XdbCloud</FilePath>
 		<ConfigFileName>Sitecore.Cloud.Xdb.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2041,6 +2204,7 @@
 		<FilePath>\website\App_Config\Include\XdbCloud</FilePath>
 		<ConfigFileName>Sitecore.ContentSearch.Cloud.DefaultIndexConfiguration.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2051,6 +2215,7 @@
 		<FilePath>\website\App_Config\Include\XdbCloud</FilePath>
 		<ConfigFileName>Sitecore.ContentSearch.Cloud.Index.Analytics.config.disabled</ConfigFileName>
 		<ConfigType>disabled</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2061,6 +2226,7 @@
 		<FilePath>\website\App_Config\Include\Z.SwitchMasterToWeb</FilePath>
 		<ConfigFileName>important.txt</ConfigFileName>
 		<ConfigType>txt</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -2071,6 +2237,7 @@
 		<FilePath>\website\App_Config\Include\Z.SwitchMasterToWeb</FilePath>
 		<ConfigFileName>SwitchMasterToWeb.config.example</ConfigFileName>
 		<ConfigType>example</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>n/a</ContentDelivery>
 		<ContentManagement>n/a</ContentManagement>
 		<Processing>n/a</Processing>
@@ -2081,6 +2248,7 @@
 		<FilePath>\website\App_Config\Include\zzz\</FilePath>
 		<ConfigFileName>DataFolder.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2091,6 +2259,7 @@
 		<FilePath>\website\App_Config\Include\zzz\</FilePath>
 		<ConfigFileName>UseServerSideRedirect.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2101,6 +2270,7 @@
 		<FilePath>\website\App_Config\Prefetch</FilePath>
 		<ConfigFileName>Common.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2111,6 +2281,7 @@
 		<FilePath>\website\App_Config\Prefetch</FilePath>
 		<ConfigFileName>Core.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2121,6 +2292,7 @@
 		<FilePath>\website\App_Config\Prefetch</FilePath>
 		<ConfigFileName>Master.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2131,6 +2303,7 @@
 		<FilePath>\website\App_Config\Prefetch</FilePath>
 		<ConfigFileName>Webdb.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2141,6 +2314,7 @@
 		<FilePath>\website\App_Config\Security</FilePath>
 		<ConfigFileName>Domains.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2151,6 +2325,7 @@
 		<FilePath>\website\App_Config\Security</FilePath>
 		<ConfigFileName>GlobalRoles.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2161,6 +2336,7 @@
 		<FilePath>\website\sitecore\shell\Applications\MarketingAutomation</FilePath>
 		<ConfigFileName>Configuration.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Enable</ContentDelivery>
 		<ContentManagement>Enable</ContentManagement>
 		<Processing>Enable</Processing>
@@ -2171,6 +2347,7 @@
 		<FilePath>\website\sitecore\shell\Applications\Reports\Dashboard</FilePath>
 		<ConfigFileName>CampaignCategoryDefaultSettings.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2181,6 +2358,7 @@
 		<FilePath>\website\sitecore\shell\Applications\Reports\Dashboard</FilePath>
 		<ConfigFileName>Configuration.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2191,6 +2369,7 @@
 		<FilePath>\website\sitecore\shell\Applications\Reports\Dashboard</FilePath>
 		<ConfigFileName>DefaultSettings.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2201,6 +2380,7 @@
 		<FilePath>\website\sitecore\shell\Applications\Reports\Dashboard</FilePath>
 		<ConfigFileName>SingleCampaignDefaultSettings.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>
@@ -2211,6 +2391,7 @@
 		<FilePath>\website\sitecore\shell\Applications\Reports\Dashboard</FilePath>
 		<ConfigFileName>SingleTrafficTypeDefaultSettings.config</ConfigFileName>
 		<ConfigType>config</ConfigType>
+		<SearchProviderUsed/>
 		<ContentDelivery>Disable</ContentDelivery>
 		<ContentManagement>Disable</ContentManagement>
 		<Processing>Disable</Processing>

@@ -13,6 +13,7 @@
                 <xs:element name="FilePath" type="xs:string"/>
                 <xs:element name="ConfigFileName" type="xs:dateTime"/>
                 <xs:element name="ConfigType" type="xs:string"/>
+				<xs:element name="SearchProviderUsed" type="xs:string"/>
                 <xs:element name="ContentDelivery" type="xs:string"/>
 				<xs:element name="ContentManagement" type="xs:string"/>
 				<xs:element name="Processing" type="xs:string"/>												                
